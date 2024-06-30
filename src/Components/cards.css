@@ -1,0 +1,39 @@
+/* Card.css */
+.custom-card {
+    width: 100%;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .color-square {
+    width: 250px;
+    height: 110px;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .initials {
+    text-transform: uppercase;
+  }
+  
+  .project-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .record-count {
+    font-size: 0.875rem;
+    color: gray;
+  }
+  
+  .last-edited {
+    font-size: 0.75rem;
+    color: gray;
+  }
+  

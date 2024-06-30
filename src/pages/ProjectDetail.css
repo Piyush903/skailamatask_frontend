@@ -1,0 +1,38 @@
+/* ProjectDetail.css */
+.project-detail {
+    padding: 2rem;
+  }
+  
+  .upload-button {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  
+  .upload-area {
+    border: 2px dashed #007bff;
+    padding: 2rem;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .upload-area p {
+    margin: 0;
+    font-size: 1rem;
+    color: #6c757d;
+  }
+  
+  .records-container {
+    margin-top: 2rem;
+  }
+  
+  .record-item {
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+  }
+  
