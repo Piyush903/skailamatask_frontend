@@ -6,9 +6,9 @@
   .upload-button {
     display: block;
     width: 100%;
-    margin-bottom: 1rem;
-    padding: 1rem;
-    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1rem;
     text-align: center;
   }
   
@@ -35,4 +35,70 @@
     border-radius: 4px;
     margin-bottom: 1rem;
   }
+  .breadcrumb {
+    display: flex;
+    align-items: center;
+    background-color:white !important;
+  }
   
+  .breadcrumb-link {
+    color: #999999;
+    text-decoration: none !important;
+    margin-right: 8px;
+    font-size: 22px !important;
+    font-weight: 500; /* Adjust space as needed */
+  }
+  
+  .breadcrumb-divider {
+    margin: 0 8px;
+    font-size: 28px !important;
+    font-weight: 500;
+    color: #999999;
+    text-decoration: none !important; /* Adjust space as needed */
+  }
+  
+  .breadcrumb-current {
+    color: #999999;
+    text-decoration: none !important;
+    margin-right: 8px;
+    font-size: 22px !important;
+    font-weight: 500;
+  }
+  
+  .language-dropdown img {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+  }
+  
+  .alert-icon {
+    font-size: 24px;
+    color: #6c757d;
+    margin-left: 16px; /* Adjust space as needed */
+  }
+  .button-icon{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px; /* Adjust size as needed */
+    height: 50px; /* Adjust size as needed */
+    border-radius: 50%;
+    background-color: red;
+    border: none;
+    color: white;
+    font-size: 24px; /* Adjust icon size as needed */
+    padding: 0;
+  }
+  .button-icon1{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px; /* Adjust size as needed */
+    height: 50px; /* Adjust size as needed */
+    border-radius: 50%;
+    background-color:gray;
+    border: none;
+    color: white;
+    font-size: 24px; /* Adjust icon size as needed */
+    padding: 0;
+  }

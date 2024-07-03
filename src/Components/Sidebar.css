@@ -1,0 +1,40 @@
+.bg-dark{
+    background-color: #F3E8FF !important;
+}
+.custom-link {
+    background-color: #F3E8FF; /* Default Light Purple */
+    color: #5b2c6f !important; /* Default Dark Purple Text */
+    border-radius: 30px !important;
+    padding: 10px 15px !important;
+    margin: 5px 0;
+    width: 100% !important;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .custom-link:hover {
+    background-color: #CAC4D0; /* Hover Color */
+  }
+  
+  .custom-link.active {
+    background-color: #5b2c6f !important; /* Active Dark Purple */
+    color: white !important; /* Active White Text */
+  }
+  
+  .circle-number {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #CAC4D0; /* Default Grey Circle */
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 10px;
+  }
+  
+  .custom-link.active .circle-number {
+    background-color: black !important; /* Active Black Circle */
+  }

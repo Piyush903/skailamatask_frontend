@@ -38,6 +38,7 @@ const Home = () => {
 
   return (
     <div className="app">
+    <CustomNavbar />
       {projects.length === 0 ? (
         <Container className="mt-4 text-center">
           <Row className="justify-content-center">

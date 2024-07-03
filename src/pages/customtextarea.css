@@ -1,0 +1,35 @@
+.canvas-container {
+    border: 1px solid #ccc; /* Border for canvas container */
+    position: relative; /* Ensure proper positioning of child elements */
+    padding: 20px; /* Adjust padding as needed */
+    margin-bottom: 20px; /* Adjust margin as needed */
+  }
+  
+  .edit-mode-controls {
+    /* Adjust right position */
+  }
+  
+  .custom-text-area {
+    position: relative; /* Ensure proper positioning */
+    margin-bottom: 10px;
+    margin-top: 30px; /* Add margin between textarea and buttons */
+  }
+  
+  .custom-text-area-input {
+    width: 100%; /* Full width */
+    border: none; /* Remove default textarea border */
+    resize: none; /* Disable textarea resizing */
+    outline: none; /* Remove outline on focus */
+    padding: 10px; /* Adjust padding as needed */
+    background-color: #f0f0f0; /* Custom background color */
+    /* Customize scrollbar */
+    scrollbar-width: thin; /* Thin scrollbar */
+    scrollbar-color: #ccc #f0f0f0; /* Scrollbar color */
+  }
+  
+  .edit-mode-button {
+    position: absolute;
+    left: 10px; /* Adjust right position */
+    top:10px
+  }
+  
